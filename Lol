@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegiX Force - Сервер Discord</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LegiX Force</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#games">Игры</a></li>
+                    <li><a href="#team">Киберспортивная команда</a></li>
+                    <li><a href="#shop">Магазин</a></li>
+                    <li><a href="#marketplace">Торговая площадка LF</a></li>
+                    <li><a href="#recruitment">Набор</a></li>
+                    <li><a href="#team_creation">Создание команды</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>О сервере LegiX Force</h2>
+            <p>LegiX Force — это Discord сервер, посвящённый играм, в частности таким как CS 2 и Dota. Присоединяйтесь, чтобы найти команду, пообщаться и поучаствовать в киберспортивных турнирах!</p>
+        </div>
+    </section>
+
+    <section id="games" class="section">
+        <div class="container">
+            <h2>Основные игры</h2>
+            <div class="game-card">
+                <h3>CS 2</h3>
+                <p>Присоединяйтесь к нашему сообществу по CS 2. Мы организуем турниры и устраиваем игры для всех уровней мастерства.</p>
+            </div>
+            <div class="game-card">
+                <h3>Dota</h3>
+                <p>Для любителей Dota у нас есть всё: от игр для новичков до турниров для настоящих профессионалов.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container">
+            <h2>Киберспортивная команда</h2>
+            <p>LegiX Force гордится своей киберспортивной командой, которая участвует в различных турнирах. Следите за нашими новостями и предстоящими матчами!</p>
+        </div>
+    </section>
+
+    <section id="shop" class="section">
+        <div class="container">
+            <h2>Магазин</h2>
+            <p>В нашем магазине можно приобрести уникальные товары, связанные с киберспортом, а также экипировку и атрибутику с символикой LegiX Force.</p>
+            <div class="image-container">
+                <img src="https://cdn.discordapp.com/attachments/1221806679688085558/1291157890438008964/image.png?ex=66ff13fd&is=66fdc27d&hm=295d03f1049e32ba64c8d611c285d1ad0fbbbd21276baae42cd4bce94007aab5&" alt="Shop banner image">
+            </div>
+        </div>
+    </section>
+
+    <section id="marketplace" class="section">
+        <div class="container">
+            <h2>Торговая площадка LF</h2>
+            <p>Торговая площадка LegiX Force позволяет участникам покупать и продавать внутриигровые предметы и ресурсы. Здесь вы сможете найти редкие и ценные лоты.</p>
+            <div class="image-container">
+                <img src="https://cdn.discordapp.com/attachments/1221806679688085558/1291158008780296314/image.png?ex=66ff1419&is=66fdc299&hm=1254d4c0f48c93e3a873be35ee65594e70289447bdba458bac7b0d8edfd4fcb7&" alt="Marketplace banner image">
+            </div>
+        </div>
+    </section>
+
+    <section id="recruitment" class="section">
+        <div class="container">
+            <h2>Набор в команду</h2>
+            <p>Мы постоянно ищем новых игроков для нашей киберспортивной команды. Если вы готовы стать частью нашего коллектива, подавайте заявку прямо сейчас! Также вы можете присоеденится к другим командам создаными игроками нашего сервера!</p>
+            <div class="image-container">
+                <img src="https://cdn.discordapp.com/attachments/1221806679688085558/1291158110148235358/image.png?ex=66ff1432&is=66fdc2b2&hm=8a2a6492b8e362bf0aa0c05a2e12bb2a53f07cdd815d91f0578b6e5632f45ff3&" alt="Recruitment banner image">
+            </div>
+        </div>
+    </section>
+
+    <section id="team_creation" class="section">
+        <div class="container">
+            <h2>Создание команды</h2>
+            <p>Присоединяйтесь к нам и создайте свою собственную команду на основе нашего сообщества. Мы поддерживаем новые инициативы и команды!</p>
+            <div class="image-container">
+                <img src="https://cdn.discordapp.com/attachments/1221806679688085558/1291158162749128849/file-vmxoJ2aRL66FiRqUVXXfj4Lk.png?ex=66ff143e&is=66fdc2be&hm=b97bf4fa821be74b8b597cfbc1025c79146cdc4df96f01d53cfedf052d2a5715&" alt="Team creation banner image">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Связаться с нами</h2>
+            <p>Присоединяйтесь к нашему Discord серверу: <a href="#">discord.gg/LegiXForce</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
