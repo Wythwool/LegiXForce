@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1e1e1e, #101010);
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(90deg, #00ff00, #006400);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    animation: slideIn 2s ease-in-out;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: fadeInDown 1.5s ease-out;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    transform: translateY(20px);
+    animation: slideIn 1s ease-in-out;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00ff00;
+}
+
+.section {
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    animation: fadeIn 2s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #00ff00;
+    font-size: 2rem;
+    animation: fadeInUp 1s ease-out;
+}
+
+.game-card {
+    background: linear-gradient(145deg, #282828, #3a3a3a);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: scaleUp 1.5s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 255, 0, 0.5);
+}
+
+footer {
+    background: linear-gradient(90deg, #006400, #00ff00);
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 1s ease;
+}
+
+footer p a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer p a:hover {
+    color: #000;
+}
+
+/* Анимации */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Все предыдущие стили остаются без изменений */
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: rgba(0, 255, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul li:hover {
+    background: rgba(0, 255, 0, 0.2);
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #00ff00;
+}
+
+/* Стили для новых разделов */
+.section {
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    animation: fadeIn 2s ease;
+    margin-bottom: 50px;
+}
+
+#shop, #marketplace, #recruitment {
+    background: linear-gradient(145deg, #282828, #3a3a3a);
+}
+
+#shop h2, #marketplace h2, #recruitment h2 {
+    color: #ffcc00; /* Желтый цвет для этих разделов */
+}
+
+/* Все предыдущие стили остаются без изменений */
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 80%;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 255, 0, 0.7);
+}
+
+/* Все предыдущие стили остаются без изменений */
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 80%;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 255, 0, 0.7);
+}
+
+/* Все предыдущие стили остаются без изменений */
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 80%;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 255, 0, 0.7);
+}
